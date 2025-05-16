@@ -2,19 +2,47 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<!-- Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. -->
 
-# Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<table border="0">
+  <tr>
+    <td width="75%">
+      <h1>张三</h1>
+      <p><b>硕士研究生</b></p>
+      <p><b>原子能科学研究院核物理研究所</b></p>
+      <p><b>邮箱：IsaacKejtin@qq.com</b></p>
+      <p><b>QQ：774218389</b></p>
+    </td>
+    <td width="25%">
+      <img src="/huhudragon.jpg" width="100%">      % 插入证件照代码
+    </td>
+  </tr>
+</table>
 
-## Header 2
+
+
+# 个人信息
+
+简略版：呼呼龙者，乃前朝佞臣，本无懿德。败坏纪法，祸乱朝纲。概多进食于先帝，深得帝心。官拜弼猫温，追谥鱼干大将军。
+
+详细版：呼呼龙，英文名Huhu Dragon，又名Isaac Kejtin，本科四川大学物理系，硕士及博士就读于中国原子能科学研究院核物理研究所，方向为核天体物理，硕士期间主要研究Mg-Al循环中的质子俘获反应。实验水平凑合，编程能力一般，但还挺喜欢科研的（虽然天赋全点文学上了），这辈子大概会一直干下去。这个博客就当个大杂烩吧，会放现在的工作，也会放一些以前的诗词（已经基本封笔了）、短篇小说及翻译作品，未来说不定也会放一些碎碎念（笑），随意吧。
+
+
+
+# 发表文章
+
+基于串列加速器Q3D磁谱仪与质子转移反应的27Al能级信息研究，原子能科学技术
+
+
+
+<!-- ## Header 2
 
 > This is a blockquote following a header.
 >
@@ -120,4 +148,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-```
+``` -->
