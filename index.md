@@ -57,9 +57,9 @@ There should be whitespace between paragraphs. We recommend including a README, 
           <span> • {{ post.categories | join: ", " }}</span>
         {% endif %}
       </div>
-      <div class="post-excerpt">
+      <!-- <div class="post-excerpt">
         {{ post.excerpt | strip_html | truncate: 120 }}
-      </div>
+      </div> -->
     </li>
   {% endfor %}
 </ul>
