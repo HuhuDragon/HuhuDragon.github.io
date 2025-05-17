@@ -46,8 +46,20 @@ There should be whitespace between paragraphs. We recommend including a README, 
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      <h2>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h2>
+      <div class="post-meta">
+        <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+        {% if post.categories %}
+          <span> • {{ post.categories | join: ", " }}</span>
+        {% endif %}
+      </div>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncate: 120 }}
+      </div>
     </li>
   {% endfor %}
 </ul>
