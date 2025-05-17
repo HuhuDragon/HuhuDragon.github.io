@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "南斯拉夫旧事"
-date: 2024-05-20
+date: 2023-06-30
 author: 呼呼龙
 categories: [文学，短篇小说]
 ---
