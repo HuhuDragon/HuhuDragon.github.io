@@ -17,7 +17,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
       <h1>呼呼龙</h1>
       <p><b>硕士研究生</b></p>
       <p><b>中国原子能科学研究院核物理研究所</b></p>
-      <p><b>邮箱：IsaacKejtin@qq.com</b></p>
+      <p><b>邮箱：isaackejtin@qq.com</b></p>
       <p><b>QQ：774218389</b></p>
     </td>
     <td width="25%">
@@ -46,7 +46,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ 还算能看的诗 }}</a></h2>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
     </li>
   {% endfor %}
