@@ -36,10 +36,21 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 
 
-# 发表文章
+# 发表论文
 
 基于串列加速器Q3D磁谱仪与质子转移反应的27Al能级信息研究，原子能科学技术
 
+
+# 最新博文
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ 还算能看的诗 }}</a></h2>
+      <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
 
 
 <!-- ## Header 2
